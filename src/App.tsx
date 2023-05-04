@@ -4,20 +4,34 @@ import {
   useNavigationType,
   useLocation,
 } from "react-router-dom";
-import FundDetailLookFeel01 from "./pages/FundDetailLookFeel01";
-import MarketplaceLookFeel2 from "./pages/MarketplaceLookFeel2";
+import SubscribeList from "./pages/SubscribeList";
 import SubscribeComplete from "./pages/SubscribeComplete";
 import SubscribeListComplete from "./pages/SubscribeListComplete";
-import SubscribeList2 from "./pages/SubscribeList2";
 import Subscribe19 from "./pages/Subscribe19";
-import Subscribe111 from "./pages/Subscribe111";
-import Subscribe110 from "./pages/Subscribe110";
-import Subscribe18 from "./pages/Subscribe18";
-import Subscribe17 from "./pages/Subscribe17";
-import Subscribe16 from "./pages/Subscribe16";
-import Subscribe15 from "./pages/Subscribe15";
-import Subscribe11 from "./pages/Subscribe11";
-import SubscribeList from "./pages/SubscribeList";
+import SubscribeList2 from "./pages/SubscribeList2";
+import SubscribeSignDocs from "./pages/SubscribeSignDocs";
+import SubscribeConfirm from "./pages/SubscribeConfirm";
+import SubscribeQuestion14 from "./pages/SubscribeQuestion14";
+import FundDetailLookFeel01 from "./pages/FundDetailLookFeel01";
+import MarketplaceLookFeel2 from "./pages/MarketplaceLookFeel2";
+import SubscribeQuestion141 from "./pages/SubscribeQuestion141";
+import SubscribeQuestion13 from "./pages/SubscribeQuestion13";
+import SubscribeQuestion12 from "./pages/SubscribeQuestion12";
+import SubscribeQuestion11 from "./pages/SubscribeQuestion11";
+import SubscribeQuestion10 from "./pages/SubscribeQuestion10";
+import SubscribeQuestion9 from "./pages/SubscribeQuestion9";
+import SubscribeQuestion8 from "./pages/SubscribeQuestion8";
+import SubscribeQuestion7 from "./pages/SubscribeQuestion7";
+import SubscribeQuestion6 from "./pages/SubscribeQuestion6";
+import SubscribeQuestion52 from "./pages/SubscribeQuestion52";
+import SubscribeQuestion5 from "./pages/SubscribeQuestion5";
+import SubscribeQuestion43 from "./pages/SubscribeQuestion43";
+import SubscribeQuestion42 from "./pages/SubscribeQuestion42";
+import SubscribeQuestion4 from "./pages/SubscribeQuestion4";
+import SubscribeQuestion3 from "./pages/SubscribeQuestion3";
+import SubscribeQuestion2 from "./pages/SubscribeQuestion2";
+import SubscribeQuestion1 from "./pages/SubscribeQuestion1";
+import SubscribeListError from "./pages/SubscribeListError";
 import { useEffect } from "react";
 
 function App() {
@@ -40,10 +54,6 @@ function App() {
         title = "";
         metaDescription = "";
         break;
-      case "/marketplace-look-feel-2":
-        title = "";
-        metaDescription = "";
-        break;
       case "/subscribe-complete":
         title = "";
         metaDescription = "";
@@ -52,43 +62,103 @@ function App() {
         title = "";
         metaDescription = "";
         break;
-      case "/subscribe-list-2":
-        title = "";
-        metaDescription = "";
-        break;
       case "/subscribe-1-9":
         title = "";
         metaDescription = "";
         break;
-      case "/subscribe-1-11":
+      case "/subscribe-list-2":
         title = "";
         metaDescription = "";
         break;
-      case "/subscribe-1-10":
+      case "/subscribe-sign-docs":
         title = "";
         metaDescription = "";
         break;
-      case "/subscribe-1-8":
+      case "/subscribe-confirm":
         title = "";
         metaDescription = "";
         break;
-      case "/subscribe-1-7":
+      case "/subscribe-question-141":
         title = "";
         metaDescription = "";
         break;
-      case "/subscribe-1-6":
+      case "/fund-detail-look-feel-01":
         title = "";
         metaDescription = "";
         break;
-      case "/subscribe-1-5":
+      case "/marketplace-look-feel-2":
         title = "";
         metaDescription = "";
         break;
-      case "/subscribe-1-1":
+      case "/subscribe-question-14":
         title = "";
         metaDescription = "";
         break;
-      case "/subscribe-list":
+      case "/subscribe-question-13":
+        title = "";
+        metaDescription = "";
+        break;
+      case "/subscribe-question-12":
+        title = "";
+        metaDescription = "";
+        break;
+      case "/subscribe-question-11":
+        title = "";
+        metaDescription = "";
+        break;
+      case "/subscribe-question-10":
+        title = "";
+        metaDescription = "";
+        break;
+      case "/subscribe-question-9":
+        title = "";
+        metaDescription = "";
+        break;
+      case "/subscribe-question-8":
+        title = "";
+        metaDescription = "";
+        break;
+      case "/subscribe-question-7":
+        title = "";
+        metaDescription = "";
+        break;
+      case "/subscribe-question-6":
+        title = "";
+        metaDescription = "";
+        break;
+      case "/subscribe-question-5-2":
+        title = "";
+        metaDescription = "";
+        break;
+      case "/subscribe-question-5":
+        title = "";
+        metaDescription = "";
+        break;
+      case "/subscribe-question-4-3":
+        title = "";
+        metaDescription = "";
+        break;
+      case "/subscribe-question-4-2":
+        title = "";
+        metaDescription = "";
+        break;
+      case "/subscribe-question-4":
+        title = "";
+        metaDescription = "";
+        break;
+      case "/subscribe-question-3":
+        title = "";
+        metaDescription = "";
+        break;
+      case "/subscribe-question-2":
+        title = "";
+        metaDescription = "";
+        break;
+      case "/subscribe-question-1":
+        title = "";
+        metaDescription = "";
+        break;
+      case "/subscribe-list-error":
         title = "";
         metaDescription = "";
         break;
@@ -110,26 +180,43 @@ function App() {
 
   return (
     <Routes>
-      <Route path="/" element={<FundDetailLookFeel01 />} />
-      <Route
-        path="/marketplace-look-feel-2"
-        element={<MarketplaceLookFeel2 />}
-      />
+      <Route path="/" element={<SubscribeList />} />
       <Route path="/subscribe-complete" element={<SubscribeComplete />} />
       <Route
         path="/subscribe-list-complete"
         element={<SubscribeListComplete />}
       />
-      <Route path="/subscribe-list-2" element={<SubscribeList2 />} />
       <Route path="/subscribe-1-9" element={<Subscribe19 />} />
-      <Route path="/subscribe-1-11" element={<Subscribe111 />} />
-      <Route path="/subscribe-1-10" element={<Subscribe110 />} />
-      <Route path="/subscribe-1-8" element={<Subscribe18 />} />
-      <Route path="/subscribe-1-7" element={<Subscribe17 />} />
-      <Route path="/subscribe-1-6" element={<Subscribe16 />} />
-      <Route path="/subscribe-1-5" element={<Subscribe15 />} />
-      <Route path="/subscribe-1-1" element={<Subscribe11 />} />
-      <Route path="/subscribe-list" element={<SubscribeList />} />
+      <Route path="/subscribe-list-2" element={<SubscribeList2 />} />
+      <Route path="/subscribe-sign-docs" element={<SubscribeSignDocs />} />
+      <Route path="/subscribe-confirm" element={<SubscribeConfirm />} />
+      <Route path="/subscribe-question-141" element={<SubscribeQuestion14 />} />
+      <Route
+        path="/fund-detail-look-feel-01"
+        element={<FundDetailLookFeel01 />}
+      />
+      <Route
+        path="/marketplace-look-feel-2"
+        element={<MarketplaceLookFeel2 />}
+      />
+      <Route path="/subscribe-question-14" element={<SubscribeQuestion141 />} />
+      <Route path="/subscribe-question-13" element={<SubscribeQuestion13 />} />
+      <Route path="/subscribe-question-12" element={<SubscribeQuestion12 />} />
+      <Route path="/subscribe-question-11" element={<SubscribeQuestion11 />} />
+      <Route path="/subscribe-question-10" element={<SubscribeQuestion10 />} />
+      <Route path="/subscribe-question-9" element={<SubscribeQuestion9 />} />
+      <Route path="/subscribe-question-8" element={<SubscribeQuestion8 />} />
+      <Route path="/subscribe-question-7" element={<SubscribeQuestion7 />} />
+      <Route path="/subscribe-question-6" element={<SubscribeQuestion6 />} />
+      <Route path="/subscribe-question-5-2" element={<SubscribeQuestion52 />} />
+      <Route path="/subscribe-question-5" element={<SubscribeQuestion5 />} />
+      <Route path="/subscribe-question-4-3" element={<SubscribeQuestion43 />} />
+      <Route path="/subscribe-question-4-2" element={<SubscribeQuestion42 />} />
+      <Route path="/subscribe-question-4" element={<SubscribeQuestion4 />} />
+      <Route path="/subscribe-question-3" element={<SubscribeQuestion3 />} />
+      <Route path="/subscribe-question-2" element={<SubscribeQuestion2 />} />
+      <Route path="/subscribe-question-1" element={<SubscribeQuestion1 />} />
+      <Route path="/subscribe-list-error" element={<SubscribeListError />} />
     </Routes>
   );
 }

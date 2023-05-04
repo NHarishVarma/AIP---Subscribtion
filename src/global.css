@@ -1,9 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Cresta:wght@400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cresta-Medium:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Azo+Sans:wght@500&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Cresta-Regular:wght@400&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Arial:wght@400;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Cresta-Bold:wght@400&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Cresta-Medium:wght@400&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Azo+Sans:wght@500&display=swap");
 body {
   margin: 0;
   line-height: normal;
@@ -19,20 +19,20 @@ body {
 
   /* font sizes */
   --font-size-5xs: 8px;
+  --font-size-3xs: 10px;
   --font-size-sm: 14px;
-  --font-size-smi: 13px;
+  --font-size-base: 16px;
+  --font-size-9xl: 28px;
   --font-size-lg: 18px;
+  --font-size-xs: 12px;
+  --font-size-smi: 13px;
+  --font-size-29xl: 48px;
+  --font-size-xl: 20px;
   --font-size-mini: 15px;
   --font-size-15xl: 34px;
-  --font-size-xs: 12px;
-  --font-size-29xl: 48px;
   --font-size-5xl: 24px;
   --font-size-lgi-9: 19.9px;
   --font-size-smi-2: 12.2px;
-  --font-size-3xs: 10px;
-  --font-size-xl: 20px;
-  --font-size-base: 16px;
-  --font-size-9xl: 28px;
 
   /* Colors */
   --color-aliceblue: #eaf0f7;
@@ -40,18 +40,19 @@ body {
   --color-gray-100: #808080;
   --color-gray-200: #0a1a27;
   --color-gray-300: #051a28;
+  --color-gray-500: rgba(10, 26, 39, 0.6);
   --color-gray-400: rgba(10, 26, 39, 0.8);
-  --color-gray-500: rgba(10, 26, 39, 0.11);
-  --color-gray-600: rgba(255, 255, 255, 0.5);
+  --color-gray-600: rgba(10, 26, 39, 0.11);
+  --color-gray-700: rgba(255, 255, 255, 0.5);
   --color-deepskyblue: #38b5e8;
   --color-gainsboro: #d2dae0;
-  --color-goldenrod: #f9c023;
   --color-royalblue: #1f61c5;
   --color-orange-100: #ffbe00;
   --color-orange-200: #ffba00;
+  --color-silver: #b7b7b7;
+  --color-goldenrod: #f9c023;
   --color-black: #000;
   --color-dimgray: #4d4f5c;
-  --color-silver: #b7b7b7;
 
   /* border radiuses */
   --br-81xl: 100px;
